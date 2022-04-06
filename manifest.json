@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Boilerexams YouTube Timestap Helper",
+    "version": "0.1.0",
+    "description": "Provides a keybind for faster copying of timestamps for pasting.",
+    
+    "content_scripts": [{
+      "css": ["css/styles.css"],
+      "js": ["js/jquery-3.6.0.min.js","js/content.js"],
+      "matches": ["https://www.youtube.com/watch*"],
+      "run_at": "document_end"
+    }]
+  }
