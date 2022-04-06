@@ -13,11 +13,11 @@ be enabled.
 ## Usage
 You will want to open up the developer console by opening up inspect element. After the page loads you can press `h` anywhere on the page and the 
 commands will be printed in the console. The commands are as follows:
-- h: print help
-- a: append current timestamp to array
-- q: print timestamp array
-- u: undo previous timestamp (gets rid of last question in array)
-- r: reset the timestamp array
+- `h`: print help
+- `a`: append current timestamp to array
+- `q`: print timestamp array
+- `u`: undo previous timestamp (gets rid of last question in array)
+- `r`: reset the timestamp array
 
 The timestamp array will be reset anytime you refresh, so be wary. The general workflow is to start the video, scrub to the start of the next question,
 press `a`, scrub to the start of the next question and repeat. At the end, press `q` and the timestamp array will be printed.
